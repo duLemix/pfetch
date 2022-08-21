@@ -1258,7 +1258,19 @@ get_ascii() {
 			EOF
         ;;
 
-        ([Dd]ahlia*)
+        ([Cc]urtain*)
+			read_ascii 1 3 <<-EOF
+				${c3} _____________
+				${c1} | /  -/
+				${c1} | | ,/
+				${c1} |/ /
+				${c3} ====;
+				${c1} | ||${c3};
+				${c1} | ||
+			EOF
+		;;
+		
+		([Dd]ahlia*)
             read_ascii 1 <<-EOF
 				${c1}      _
 				${c1}  ___/ \\___
